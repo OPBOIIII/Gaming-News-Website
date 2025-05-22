@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVerse - Gaming News</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🎮 GameVerse</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#news">News</a>
+            <a href="#videos">Videos</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search news...">
+            </form>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Level Up Your Gaming News</h1>
+            <p>Stay ahead with the latest updates, reviews, and videos from the world of gaming.</p>
+            <a href="#news" class="hero-btn">Explore Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?fit=crop&w=600&q=80" alt="Gaming Hero">
+        </div>
+    </section>
+
+    <main>
+        <!-- Trending News Cards -->
+        <section class="trending" id="news">
+            <h2>🔥 Trending News</h2>
+            <div id="trendingContainer" class="trending-container"></div>
+        </section>
+
+        <!-- Featured News Section (CMS Ready) -->
+        <section class="featured-news">
+            <h2>⭐ Featured News</h2>
+            <div id="featuredContainer" class="featured-container"></div>
+        </section>
+
+        <!-- Videos / Reviews Section -->
+        <section class="videos-reviews" id="videos">
+            <h2>🎬 Latest Videos & Reviews</h2>
+            <div class="media-container">
+                <!-- Example YouTube Embed -->
+                <div class="media-card">
+                    <iframe src="https://www.youtube.com/embed/2g811Eo7K8U" title="Game Trailer" frameborder="0" allowfullscreen></iframe>
+                    <div class="media-info">
+                        <h3>Cyber Odyssey Launch Trailer</h3>
+                        <p>Experience the future of RPGs in this stunning trailer for Cyber Odyssey.</p>
+                    </div>
+                </div>
+                <div class="media-card">
+                    <iframe src="https://www.youtube.com/embed/7wtfhZwyrcc" title="Game Review" frameborder="0" allowfullscreen></iframe>
+                    <div class="media-info">
+                        <h3>Legends Reborn Review</h3>
+                        <p>Our in-depth review of the latest hit, Legends Reborn. Is it worth your time?</p>
+                    </div>
+                </div>
+                <!-- Add more video/review cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 GameVerse. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
