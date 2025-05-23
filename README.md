@@ -4,9 +4,7 @@ Welcome to the **Gaming News Website** — your one-stop hub for the latest upda
 
 ## 🌐 Live Website
 
-👉 [Visit the Live Site](https://yourusername.github.io/gaming-news-website/)
-
-> Replace the link above with your actual GitHub Pages URL once it's live.
+👉 [Visit the Live Site](https://opboiiii.github.io/Gaming-News-Website/)
 
 ---
 
